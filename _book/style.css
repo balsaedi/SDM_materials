@@ -1,0 +1,34 @@
+/* Styling for code chunks */
+pre {
+  background-color: #282c34; /* Dark background for code */
+  color: #abb2bf; /* Light gray text for readability */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1rem; /* Padding around the code */
+  font-family: 'Fira Code', monospace; /* Monospace font */
+  font-size: 0.95rem;
+  overflow: auto; /* Scrollable for long code */
+  border: 1px solid #444c56; /* Subtle border */
+  margin-bottom: 1rem; /* Space below code blocks */
+}
+
+/* Styling for output/results */
+.output {
+  background-color: #f8f9fa; /* Light gray background for results */
+  color: #212529; /* Dark text */
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: 'Roboto Mono', monospace; /* Monospace font for output */
+  font-size: 0.9rem;
+  overflow: auto;
+  border: 1px solid #dee2e6;
+  margin-top: 1rem; /* Space above result blocks */
+}
+
+/* Distinguishing code and results visually */
+pre code {
+  color: #d63384; /* Bootstrap's pink color for inline code */
+}
+
+.output pre {
+  margin: 0; /* Remove extra margins for nested pre */
+}
